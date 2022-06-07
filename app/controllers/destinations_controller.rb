@@ -7,7 +7,7 @@ class DestinationsController < ApplicationController
 
   def show
     @current_weather = WeatherFacade.get_current_weather(params[:id])
-
+    
   end
 
   def new
